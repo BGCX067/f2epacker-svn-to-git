@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------------------
+	widget 
+___________________________________________________________________________________*/
+
+/*	Struct :box 原型：  
+	 用来作为承载的容器结构
+*/
+
+.box {zoom:1;}
+	 .b-t	{}
+		 .b-t 	h2{}		
+		 .b-t span a { }
+	 .b-c 	{ zoom:1;}
+	 .b-f	{ overflow:hidden; }
+	 
+ 
+/* component 模型  */	 
+	 
+.comp {}
+.comp li {}
+	.comp .pic{ display:block; }
+	/*=详细描述=*/
+	.comp .summary {}
+	
+	/*=简单描述=*/
+    .comp p{margin:3px 0;}
+    .comp em {
+        color: #ff6600;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+        
+    }
+.comp del{color:#999; font-size:12px; }
+
+
+.box:after,.b-c:after,.c2-b:after,.c2-a:after,.row:after
+{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;	
+}	 
+
+.clearfix:after {
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+    overflow:hidden; 
+}
+.clearfix {zoom:1;}
+

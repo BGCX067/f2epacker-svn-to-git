@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------------------------------------------
+	Start footer
+*/
+.footer{ height:292px; margin-top:60px; background:url(../img/search/bg_footer.gif) left top repeat-x;}
+	.footerSearch{ width:960px; margin:0 auto; padding-top:12px; line-height:20px; height:33px; font-size:14px; font-weight:bold; color:#9bbdff;}
+		.footerSearch .secSearchTxt { margin-left:15px; width:300px; }
+		
+	.footer a {margin:0 6px; color:#fff;line-height:22px;}
+	.siteMap {margin:20px auto; overflow:hidden;zoom:1;padding:10px 0 10px 170px; width:790px; background:url(../img/search/libaLogoFoot.gif) no-repeat left bottom;}
+		.siteMap dl {float:left;width:200px; height:100px; padding:0  20px 0 0;}
+			.siteMap dt { width:140px;}
+				.siteMap dt a{ font-size:14px; color:#fff; font-weight:bold;}		
+			.siteMap dd {float:left;width:85px; line-height:25px;}
+	.copyright {width:790px;clear:both; margin:0 auto; padding-left:170px; line-height:22px;font-size:13px; color:#9bbdff; }
+
+/*
+	End footer
+----------------------------------------------------------------------------------------------------------*/

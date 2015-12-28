@@ -1,0 +1,86 @@
+/*----------------------------------------------------------------------------------------------------------
+	Start header
+*/
+.header{ height:168px; background:url(../img/search/bg_header.gif) left top repeat-x;}
+	.info{ width:960px; height:76px; margin:0 auto;}
+		.logoBar {position:absolute;top:10px;z-index:1000;height:60px;width:350px;}
+			.logoBar .logo {float:left;}
+			.areaSite {float:right;margin-top:12px;}
+				.areaSite li {float:left;line-height:18px;padding:0 5px 0 0;}
+				.areaSite em {font-size:15px;font-style:normal;font-weight:bold;}
+				.areaSite .area {position:relative;z-index:50;}
+				.areaSite .other {color:#666666;}
+				.areaSite #Citylayer {left:0;position:absolute;right:30px;top:16px;}
+						#City {-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:#FFFFFF none repeat scroll 0 0;border:1px solid #CCCCCC;
+	height:auto;opacity:0.9;padding:3px;text-align:center;width:150px;}
+						#City a {font-size:12px;padding:2px;}
+
+
+		.quick-link {width:500px;margin-left:420px;position:absolute;top:15px;z-index:999;}
+			.quick-link-right {float:right;}
+				.quick-link li {float:left;height:20px;line-height:20px;margin-right:12px;padding-left:18px;}
+					span.userName {color:#FF6600;margin:0 5px; font-weight:bold;}
+				li.my {float:left;padding:0 8px;position:relative;z-index:100;}
+					li.my a {display:block;text-decoration:none;z-index:10000;}
+					li.my span {float:left;}
+						li.my span.arrow{ margin-left:3px; padding:0 3px; height:8px; _height:5px; position:relative; right:0; _right:-3px; top:6px; *top:4px; _line-height:10px; border:1px solid #42639d; background:#fff url(../img/search/arror_my.gif) center center no-repeat; z-index:10001;}					
+					li.my .h-c {-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:#FFFFFF none repeat scroll 0 0;border:1px solid #42639B;display:none;padding:5px 0;position:absolute;right:8px;top:17px;width:100px;z-index:9999;}
+						li.my .h-c li {border-bottom:1px solid #CDD6E8;float:none;line-height:18px;margin:0;padding:0;}
+						li.my .h-c li.last {border-bottom:medium none;}
+						li.my .h-c li a{ line-height:20px; padding:0 10px; display:block;}
+						li.my .h-c li a:hover{ background:#e7eff7;}
+							.hpOver a span.arrow{ height:11px; *height:13px; border-bottom:none; }
+						
+	.navSearch{ height:92px; width:960px; margin:0 auto; background:url(../img/search/bg_nav.gif) left top no-repeat;}
+		.navSearch ul{ float:left;}
+			.navSearch ul.mainNav{ width:813px;}
+			.navSearch ul.sideNav{ width:140px;}
+			.navSearch ul li{ float:left;}				
+				.navSearch ul.mainNav a,
+				.navSearch ul.sideNav a{ display:block; height:16px; font-size:0; text-indent:-9999px;}				
+				.navSearch ul.mainNav a{padding:16px 20px 16px 40px;}
+				.navSearch ul.sideNav a{ padding:16px 20px;}
+				
+			.navSearch ul li.index{ width:104px;}
+				.navSearch ul li.index a:hover{background:url(../img/search/bg_indexhover.gif) left top no-repeat;}
+			.navSearch ul li.home{ width:154px;}
+			.navSearch ul li.deco{ width:137px;}
+				.navSearch ul li.deco a:hover{background:url(../img/search/bg_decohover.gif) left top no-repeat;}
+			.navSearch ul li.marry{ width:134px;}
+				.navSearch ul li.marry a:hover{background:url(../img/search/bg_marryhover.gif) left top no-repeat;}
+			.navSearch ul li.baby{ width:138px;}
+				.navSearch ul li.baby a:hover{background:url(../img/search/bg_babyhover.gif) left top no-repeat;}
+			.navSearch ul li.car{ width:146px;}
+				.navSearch ul li.car a:hover{background:url(../img/search/bg_carhover.gif) left top no-repeat;}
+				
+			.navSearch ul li.home a:hover,
+			.navSearch ul li.home a.now{background:url(../img/search/bg_homehover.jpg) left top no-repeat;}
+		
+		.navSearch .breadCrumbs{ height:32px; padding-top:12px;}
+			.navSearch .breadCrumbs li{padding:0 8px;position:relative;z-index:100;}
+			.navSearch .breadCrumbs li.now{ color:#fff;}
+				.breadCrumbs li a{ float:left; padding-right:8px; background:url(../img/search/ico_arrow.gif) right center no-repeat; color:#fff; text-decoration:underline; z-index:10000;}		
+					.breadCrumbs li span{ z-index:10001; position:relative; padding:0 3px;}
+				.breadCrumbs li.my .h-c{ top:22px; left:8px;}
+					.breadCrumbs .h-c a{ float:none; color:#436298; background:none;}
+					
+				.breadCrumbs .hpOver a{ background:none;}	
+					.breadCrumbs .hpOver span{ padding:2px 3px 4px; color:#42639B; background-color:#fff; border-top:1px solid #42639B; border-left:1px solid #42639B; border-right:1px solid #42639B; height:16px; }					
+				
+				
+		.navSearch .searchbox{ float:right; margin:7px 15px 0 0; padding:2px;position:relative; background-color:#8ba8df; }
+			.cr{ position:absolute; display:block; width:8px; height:8px;}
+				.cr_tl{ left:0; top:0; background:url(../img/search/bg_searchtl.gif) left top no-repeat;}
+				.cr_bl{ left:0; bottom:0; background:url(../img/search/bg_searchbl.gif) left bottom no-repeat; }
+				.cr_tr{ right:0; top:0; background:url(../img/search/bg_searchtr.gif) right top no-repeat;}
+				.cr_br{  right:0; bottom:0; background:url(../img/search/bg_searchbr.gif) right bottom no-repeat;}
+			.searchboxcon{ height:26px; width:240px; padding:0 0 0 10px; background-color:#fff;  }	
+				.searchinput{ float:left; padding-left:20px; background:url(../img/search/bg_search.gif) left center no-repeat;}
+					.searchinput input{ height:16px; width:149px; padding:4px 0; color:#999; border:0;}
+				.searchbtn{ float:right; margin-left:4px; width:47px; border-left:4px solid #8ba8df;}	
+					.searchbtn input{ padding:5px 6px 4px 7px; margin:0; color:#fff; font-weight:bold; border:0; background:url(../img/search/bg_searchbtn.gif) left top no-repeat;}
+					
+					
+/*
+	End header
+----------------------------------------------------------------------------------------------------------*/

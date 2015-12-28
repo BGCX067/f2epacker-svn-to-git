@@ -1,0 +1,33 @@
+{
+    "Version":"v3",	  	
+	"Compress":"4",
+	"Path":"D:/www/f2epacker/demo2/resource/css/",
+	"HttpPath":"http://127.0.0.1/f2epacker/demo2/resource/css/",
+	"FileType":"css",
+	"Common":{
+		"comm1":["common/reset.css","common/typography.css","common/layout.css"]
+	},
+	"Domain":{
+		"d1":["http://home.sh.liba.com/a.css"]
+	},
+	"Module":{ 
+	       "module_one":["module/box.css","module/header.css","module/footer.css"],
+		   "module_two":["module/list.css"]
+	},
+	"Page":{	           
+	       "f2e_page_tag":{
+			   "C":["comm1"],
+			   "M":["module_one","module_two"],
+			   "D":["d1"],
+			   "P":["product/content.css","product/search.css"]
+		   },
+		  "my_page":{
+				"C":["comm1"],
+			   "M":["module_two"],
+			   "D":[],
+			   "P":["product/search.css"]
+			
+
+		  }
+	 }
+}

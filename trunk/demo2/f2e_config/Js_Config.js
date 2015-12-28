@@ -1,0 +1,24 @@
+{
+    "Version":"v3",	 	
+	"Compress":"3",
+	"Path":"D:/www/f2epacker/demo2/resource/js/",
+	"HttpPath":"http://127.0.0.1/f2epacker/demo2/resource/js/",
+	"FileType":"js",
+	"Common":{
+	  "comm1":["jquery/jquery.js","jquery/TabPane.js"]
+	},
+	"Domain":{
+		"d1":["http://home.sh.liba.com/a.js"]
+	},
+	"Module":{ 
+	       "module_one":["lib/lib.link2.js","lib/Liba_lib.js"]
+	},
+	"Page":{
+	        "f2e_page_tag":{
+			   "C":["comm1"],
+			   "M":["module_one"],
+			   "D":[],
+			   "P":["product/product_lib.js"]
+		   }       
+	 }
+}

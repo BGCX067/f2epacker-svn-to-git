@@ -1,0 +1,19 @@
+{
+    "Version":"v3",
+	"Update":"20081014",
+	"Compress":"4",
+	"Common":[
+	  "jquery/jquery2.js"
+	],
+	"Domain":{
+		"d1":["http://home.sh.liba.com/a.js"]
+	},
+	"Module":{ 
+	       "m1":["lib/lib.link2.js"]
+	},
+	"Page":{
+	       "index_php":["","","sys/index.css"],	        
+	       "search_php":["m1","","product/goods_info.js","product/goods_simple.js"]
+	      
+	 }
+}

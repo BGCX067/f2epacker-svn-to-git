@@ -1,0 +1,33 @@
+
+/*--------------------------------------------------------------- 
+	Layout   主要是三栏，两栏的布局
+ ______________________________________________________________*/
+
+ /*=三栏   
+ * 
+ *=To do: 在具体使用中需要对每栏的宽度和padding，margin进行具体设置
+ ________________________________________________________________________________________*/
+
+.c3-a 	{float:left;}
+.c3-b 	{}
+.c3-c 	{float:right;}
+.c3-bc 	{float:right;}
+.c3-ab{float:left;}
+
+/*=两栏
+___________________________________________________*/
+.c2-a	{float:left;zoom:1;}
+.c2-b	{float:right; zoom:1;}
+.row {zoom:1;}
+
+ /* 清除浮动的一般办法 */
+.clear { clear:both; visibility:hidden; }
+.overflow {overflow: auto;zoom: 1;}
+
+
+.lt {float:left;}
+.rt {float:right;}
+
+/*==*/
+
+.hand { cursor:pointer; _cursor:hand;}

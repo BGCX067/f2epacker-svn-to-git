@@ -1,0 +1,33 @@
+a { color: #436298; text-decoration: none; } 
+body{ color:#333;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+
+.keyword em{ color:#f00000; font-style:normal;}
+
+.price{  color:#f60;}
+	.price .fh{ font-weight:bold;}
+	.price em{font-family:Verdana; font-size:16px; font-weight:bold;}
+	.price span{ margin:0 2px;}
+
+.pricedel{ color:#999;}
+
+
+		
+.pageTurning{ margin:20px 0;}
+	.pageTurning a{ margin:1px; padding:3px 7px; line-height:1.9; background-color:#fff; border:1px solid #dfdfdf; color:#81a402;text-decoration:none;}
+	.pageTurning a:hover{ border:1px solid #81a402;}
+	span.current { padding:3px 7px; background-color:#81a402;border:1px solid #81a402;color:#fff;font-weight:bold;}
+
+
+
+.box{ margin-bottom:20px;border-bottom:1px solid #dfdfdf;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+	.box h3{ padding:7px; position:relative; font-size:14px; font-weight:bold; border-top:4px solid #eee; border-bottom:1px solid #eee;}
+		.box h3 a{ position:absolute; right:7px; top:7px;text-decoration:underline; font-size:12px; font-weight:normal;}
+
+
+
+
+
